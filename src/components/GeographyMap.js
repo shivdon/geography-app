@@ -91,7 +91,6 @@ const GeographyMap = ({setTooltipContent, history}) => {
 
                               .then((res) => {
 
-                                console.log(res.data);
                                 history.push({ pathname: "/countryInfo", state: { data: res.data } });
                                 setLoading(false);
 

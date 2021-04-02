@@ -52,8 +52,9 @@ const CountryPage = (props) => {
   
   return (
       <div className="container text-center mt-2 pt-1">
-         <Divider plain><h1 className="font-weight-bold">{name}</h1></Divider>  
-
+        
+        <Divider plain><h1 className="font-weight-bold">{name.substring(0, 40)}</h1></Divider>
+        
         <div className="row p-2">
           
           <CountryImages 
