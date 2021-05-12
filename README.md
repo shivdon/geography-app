@@ -1,3 +1,14 @@
+# About
+
+This project is a geography made using Reactjs and REST API.
+There is A world map in the project on which you can hover and fetch the country map and details.
+on Clicking on a particular country you can fetch all the details related to it.
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
